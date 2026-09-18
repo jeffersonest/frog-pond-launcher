@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Frog Pond &middot; baixar o jogo</title>
+<meta name="description" content="Frog Pond: arcade de cima, em pixel art, sobre uma rã que anda pela margem de um lago gerado e tira do ar o que passa voando. Download para Windows e Linux.">
+<meta name="theme-color" content="#1b2a20">
+<link rel="icon" href="img/icon.png" type="image/png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap hero__grid">
+    <div class="hero__say">
+      <img class="hero__logo" src="img/logo.png" width="256" height="206" alt="">
+      <h1 class="hero__title">
+        <img class="pixel" src="img/wordmark.png" width="54" height="9" alt="Frog Pond">
+      </h1>
+      <p class="hero__pitch">Uma rã na beira de um lago gerado. Tudo que passa voando por cima da água é seu, se a língua alcançar.</p>
+      <a class="button button--lead" href="#baixar">Baixar o jogo</a>
+      <p class="hero__note">Windows e Linux &middot; download direto, sem loja e sem conta</p>
+    </div>
+    <figure class="figure hero__art">
+      <div class="frame">
+        <img class="pixel" src="img/board-day.png" width="640" height="360" alt="Um tabuleiro de dia: o lago, as vitórias-régias, os troncos e a rã na margem com a língua esticada sobre a água.">
+      </div>
+      <figcaption>Um tabuleiro de dia, pintado do jeito que o jogo pinta o lago.</figcaption>
+    </figure>
+  </div>
+</header>
+
+<div class="shore" aria-hidden="true"></div>
+
+<main>
+
+<section class="section" id="baixar">
+  <div class="wrap wrap--narrow">
+    <div class="scroll">
+      <div class="scroll__body">
+        <h2 class="scroll__title">Baixar</h2>
+        <p class="scroll__lead">Sempre a última versão publicada, e todo pacote já vem com o launcher.</p>
+
+        <ul class="downloads">
+          <li class="download" data-platform="windows">
+            <span class="tag">Seu sistema</span>
+            <h3 class="download__name">Windows</h3>
+            <p class="download__file">Instalador <code>.exe</code> &middot; 64 bits</p>
+            <p class="download__note">Instala sem pedir administrador. O executável não é assinado: na primeira vez clique em <b>Mais informações</b> e depois em <b>Executar assim mesmo</b>.</p>
+            <a class="button" href="https://github.com/jeffersonest/frog-pond-launcher/releases/latest/download/frog-pond-setup.exe">Baixar instalador</a>
+          </li>
+
+          <li class="download" data-platform="linux">
+            <span class="tag">Seu sistema</span>
+            <h3 class="download__name">Linux</h3>
+            <p class="download__file">AppImage &middot; qualquer distribuição</p>
+            <p class="download__note">Um arquivo só, não instala nada. Dê permissão de execução com <code>chmod +x</code> e clique duas vezes.</p>
+            <a class="button" href="https://github.com/jeffersonest/frog-pond-launcher/releases/latest/download/frog-pond-x86_64.AppImage">Baixar AppImage</a>
+          </li>
+
+          <li class="download">
+            <h3 class="download__name">Debian e Ubuntu</h3>
+            <p class="download__file">Pacote <code>.deb</code> &middot; amd64</p>
+            <p class="download__note">Instale com <code>sudo dpkg -i</code> ou abra o arquivo na loja de aplicativos. Entra no menu como qualquer outro programa.</p>
+            <a class="button" href="https://github.com/jeffersonest/frog-pond-launcher/releases/latest/download/frog-pond-amd64.deb">Baixar .deb</a>
+          </li>
+        </ul>
+
+        <p class="scroll__foot">Não há versão para macOS. O jogo roda offline e guarda o progresso na sua máquina; quem usa a internet é o launcher, só para procurar versão nova.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="o-que-e">
+  <div class="wrap">
+    <h2 class="title">O que é</h2>
+    <p class="lead">Frog Pond é um arcade de cima, em pixel art. A rã não nada: ela anda pela margem, desliza pela parede em que está e dobra a quina quando chega ao fim dela. A água fica inteira na sua frente e a única ferramenta é a língua. Você mira com o mouse, clica, e a presa volta grudada nela.</p>
+
+    <ul class="cards">
+      <li class="card">
+        <h3>A margem inteira</h3>
+        <p>A rã percorre a beira do lago e vira as quinas sozinha quando você insiste na direção. Ela nunca sai da margem, então o que decide o que dá para tirar da água é o alcance da língua e o lugar onde você resolveu esperar.</p>
+      </li>
+      <li class="card">
+        <h3>Seis bichos no ar</h3>
+        <p>Mosca comum, vaga-lume, vermelha (quatro delas devolvem uma vida), dourada, besouro pesado e libélula. Cada um voa de um jeito, dá um trabalho diferente e vale mais que o anterior.</p>
+      </li>
+      <li class="card">
+        <h3>Seis chefes</h3>
+        <p>A cada dez níveis a partida é só a luta: mosquito, morcego, aranha, peixe, garça e a rã rival. Cada um tem a sua janela de abertura, e achar essa janela é a luta.</p>
+      </li>
+      <li class="card">
+        <h3>Níveis sem teto</h3>
+        <p>Um nível é um número e uma semente. A semente é sorteada uma vez e fica guardada, então repetir o nível devolve o mesmo lago, a mesma parede e o mesmo enxame, e o melhor tempo vale a pena caçar. A escada de dificuldade não acaba.</p>
+      </li>
+      <li class="card">
+        <h3>Rank e build</h3>
+        <p>Cada bicho vale o nível do tabuleiro em que apareceu. O rank entrega pontos e você gasta um a um, para sempre, em agilidade, força ou língua. Duas rãs no mesmo rank não jogam parecido, e dá para devolver todos os pontos e montar a build de novo.</p>
+      </li>
+      <li class="card">
+        <h3>Dia e noite</h3>
+        <p>Metade dos tabuleiros roda depois do anoitecer. É o mesmo lago sob um filtro azul, com a mesma margem no mesmo lugar, e no escuro o vaga-lume parado numa vitória-régia é quase a única coisa que se enxerga.</p>
+      </li>
+    </ul>
+
+    <figure class="figure figure--wide">
+      <div class="frame">
+        <img class="pixel" src="img/board-night.png" width="640" height="360" alt="O mesmo tabuleiro depois do anoitecer, azulado, com três vaga-lumes acesos sobre as vitórias-régias.">
+      </div>
+      <figcaption>O mesmo lago da imagem lá de cima, na mesma semente, depois do anoitecer.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="section" id="launcher">
+  <div class="wrap wrap--narrow">
+    <div class="scroll">
+      <div class="scroll__body">
+        <h2 class="scroll__title">Vem com launcher</h2>
+        <p class="scroll__lead">O que você instala não é só o jogo.</p>
+        <p>Junto vai um launcher. Toda vez que ele abre, confere se saiu versão nova, baixa o que falta, troca os arquivos e só então começa a partida. Você instala uma vez e não precisa voltar aqui para atualizar.</p>
+        <ul class="ticks">
+          <li>Procura atualização a cada abertura.</li>
+          <li>Troca a versão sozinho, sem reinstalar nada.</li>
+          <li>Vale para os três pacotes: instalador do Windows, AppImage e <code>.deb</code>.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<div class="shore shore--flipped" aria-hidden="true"></div>
+
+<footer class="footer">
+  <div class="wrap">
+    <p class="footer__line">Frog Pond &middot; feito na Godot 4</p>
+    <p class="footer__line">Versões e código do launcher em <a href="https://github.com/jeffersonest/frog-pond-launcher">github.com/jeffersonest/frog-pond-launcher</a></p>
+    <p class="footer__line footer__line--dim">Progresso, sementes e recordes ficam salvos na sua máquina.</p>
+  </div>
+</footer>
+
+<script>
+// The three packages stay side by side; the visitor's own system just gets marked.
+(function () {
+  function system() {
+    var hints = navigator.userAgent + " " + (navigator.platform || "");
+    if (/android|iphone|ipad/i.test(hints)) return "";
+    if (/win/i.test(hints)) return "windows";
+    if (/linux|x11|cros/i.test(hints)) return "linux";
+    return "";
+  }
+
+  var here = system();
+  if (!here) return;
+
+  var card = document.querySelector('.download[data-platform="' + here + '"]');
+  if (!card) return;
+
+  card.classList.add("is-recommended");
+})();
+</script>
+
+</body>
+</html>
