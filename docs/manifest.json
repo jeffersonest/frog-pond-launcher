@@ -6,7 +6,8 @@
 			"version": "1.0.0",
 			"size": 29340456,
 			"sha256": "d5abed69c1919c2adfd9fb519000ebd1afd22075a2d71d31805ce01b81d49636",
-			"url": "https://github.com/jeffersonest/frog-pond-launcher/releases/download/v1.0.0/audio.pck"
+			"url": "https://github.com/jeffersonest/frog-pond-launcher/releases/download/v1.0.0/audio.pck",
+			"source": "e9310a7b4c9a730efe2930dd1a83f163c98b17ac87a7ed66cfb2d3c9013b85c6"
 		},
 		"game": {
 			"version": "1.1.0",
