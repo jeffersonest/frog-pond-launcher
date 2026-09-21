@@ -1,6 +1,6 @@
 {
-	"version": "1.1.2",
-	"notes": "O launcher agora fala com o servidor por IPv4, que era o que travava a busca de atualizacao em algumas redes. O botao JOGAR aparece na hora, sem esperar a rede. O painel ganhou espaco para estas notas e uma barra de progresso. Para o Windows, agora tem tambem uma versao em pasta, sem instalador.",
+	"version": "1.2.0",
+	"notes": "Agora da para ajustar o volume da musica e dos efeitos, pelo menu principal ou pela pausa, em SOM. O ajuste vale para a maquina e continua valendo depois de atualizar o jogo.",
 	"packs": {
 		"audio": {
 			"version": "1.0.0",
@@ -10,10 +10,10 @@
 			"source": "e9310a7b4c9a730efe2930dd1a83f163c98b17ac87a7ed66cfb2d3c9013b85c6"
 		},
 		"game": {
-			"version": "1.1.1",
-			"size": 1263172,
-			"sha256": "d42d21e82e14bc09a19cf1c05860a594a185f478fb0dc9d9b13a29b4abe84bf3",
-			"url": "https://github.com/jeffersonest/frog-pond-launcher/releases/download/v1.1.1/game.pck"
+			"version": "1.2.0",
+			"size": 1275216,
+			"sha256": "297a22eebb993f71472ab7c1bb9d21ded15f62b1650e619e206b0ccbd6d66dd9",
+			"url": "https://github.com/jeffersonest/frog-pond-launcher/releases/download/v1.2.0/game.pck"
 		}
 	}
 }
