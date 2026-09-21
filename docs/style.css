@@ -520,3 +520,42 @@ figcaption {
 .steps li {
   margin-bottom: 6px;
 }
+
+/* The two Windows downloads travel together, so the pair sits at the foot of the card and the
+   single button in the other cards still lands on the same line. */
+.download__actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: auto;
+}
+
+.download__actions .button {
+  margin-top: 0;
+}
+
+/* The Windows warning is an aside, not a fourth way to download: in the card it doubled that
+   card's height and knocked the three of them out of line. */
+.aside {
+  margin: 1.6rem 0 0;
+  padding: 0.9rem 1.1rem;
+  border-left: 4px solid var(--wood);
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.aside__title {
+  margin: 0 0 0.4rem;
+  font-size: 0.9rem;
+  color: var(--ink);
+}
+
+.aside p {
+  margin: 0 0 0.5rem;
+  font-size: 0.82rem;
+  line-height: 1.55;
+  color: var(--wood-dark);
+}
+
+.aside .steps {
+  margin-bottom: 0;
+}
