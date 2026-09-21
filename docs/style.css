@@ -492,3 +492,18 @@ figcaption {
     width: 100%;
   }
 }
+
+/* The fallback download sits under the one most people want, so it reads as the second option
+   rather than a competing one. */
+.button--quiet {
+  margin-top: 6px;
+  background: transparent;
+  border: 2px solid var(--wood);
+  color: var(--parchment);
+  box-shadow: none;
+}
+
+.button--quiet:hover {
+  background: var(--wood);
+  color: var(--ink);
+}
