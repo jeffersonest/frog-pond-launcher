@@ -507,3 +507,16 @@ figcaption {
   background: var(--wood);
   color: var(--ink);
 }
+
+/* The two clicks that get past the Windows warning, numbered so nobody has to guess the order. */
+.steps {
+  margin: 0 0 1.1rem;
+  padding-left: 1.2rem;
+  font-size: 0.78rem;
+  line-height: 1.55;
+  color: var(--wood-dark);
+}
+
+.steps li {
+  margin-bottom: 6px;
+}
