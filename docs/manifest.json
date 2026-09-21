@@ -1,6 +1,6 @@
 {
-	"version": "1.1.1",
-	"notes": "",
+	"version": "1.1.2",
+	"notes": "O launcher agora fala com o servidor por IPv4, que era o que travava a busca de atualizacao em algumas redes. O botao JOGAR aparece na hora, sem esperar a rede. O painel ganhou espaco para estas notas e uma barra de progresso. Para o Windows, agora tem tambem uma versao em pasta, sem instalador.",
 	"packs": {
 		"audio": {
 			"version": "1.0.0",
