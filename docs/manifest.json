@@ -1,6 +1,6 @@
 {
-	"version": "1.5.1",
-	"notes": "Conta: agora o jogo diz o motivo quando o cadastro e recusado, em vez de NAO DEU CERTO, e a senha aparece como asteriscos em vez de quadradinhos. Habilidades: CHOQUE e VENENO nao gastam mais a carga atirando em mosca, entao ficam prontos para o boss e a cobra, e o SUMICO do sapo branco agora da para ver que esta ligado.",
+	"version": "1.5.2",
+	"notes": "Os campos de conta agora aceitam maiuscula e minuscula e recusam simbolos que a fonte nao desenha, com o arroba so no email. IMPORTANTE para quem instalou antes de 20 de setembro as 23h: baixe o instalador de novo no site. A fonte e as configuracoes de tela ficam dentro do launcher, nao no pacote do jogo, entao sem isso as letras minusculas viram quadrados e a tela cheia continua com bordas pretas.",
 	"packs": {
 		"audio": {
 			"version": "1.5.0",
@@ -10,10 +10,10 @@
 			"source": "ae1e1270b5d1934568456e2b9856a9662f7c9dd2dabb2a17237bc7fcac8bc78f"
 		},
 		"game": {
-			"version": "1.5.1",
-			"size": 1327396,
-			"sha256": "7b88f411d76b8e3127fff4a8f7e831db026cbe2d02577a3c04932e8753ea8f8d",
-			"url": "https://github.com/jeffersonest/frog-pond-launcher/releases/download/v1.5.1/game.pck"
+			"version": "1.5.2",
+			"size": 1328148,
+			"sha256": "fc3e4b828f28236bd31e0cd3e18b31d435c295d3efa936f872307f1a43c113cd",
+			"url": "https://github.com/jeffersonest/frog-pond-launcher/releases/download/v1.5.2/game.pck"
 		}
 	}
 }
