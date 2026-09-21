@@ -458,6 +458,16 @@ figcaption {
   color: var(--text-dim);
 }
 
+/* Uppbeat asks for its credit in its own words, so the block keeps them rather than folding the
+   line into the Portuguese around it. */
+.footer__title {
+  margin: 1.6rem 0 0.5rem;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+}
+
 /* --- narrow screens ----------------------------------------------------- */
 
 @media (max-width: 800px) {
