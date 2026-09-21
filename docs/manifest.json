@@ -1,5 +1,5 @@
 {
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"notes": "",
 	"packs": {
 		"audio": {
@@ -10,10 +10,10 @@
 			"source": "e9310a7b4c9a730efe2930dd1a83f163c98b17ac87a7ed66cfb2d3c9013b85c6"
 		},
 		"game": {
-			"version": "1.1.0",
+			"version": "1.1.1",
 			"size": 1263172,
-			"sha256": "bc5a2e196ee7069d39405ef8386211f8416d8898bf0a1fa96f5c4eba786b24c4",
-			"url": "https://github.com/jeffersonest/frog-pond-launcher/releases/download/v1.1.0/game.pck"
+			"sha256": "d42d21e82e14bc09a19cf1c05860a594a185f478fb0dc9d9b13a29b4abe84bf3",
+			"url": "https://github.com/jeffersonest/frog-pond-launcher/releases/download/v1.1.1/game.pck"
 		}
 	}
 }
