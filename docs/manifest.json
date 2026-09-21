@@ -1,6 +1,6 @@
 {
-	"version": "1.5.2",
-	"notes": "Os campos de conta agora aceitam maiuscula e minuscula e recusam simbolos que a fonte nao desenha, com o arroba so no email. IMPORTANTE para quem instalou antes de 20 de setembro as 23h: baixe o instalador de novo no site. A fonte e as configuracoes de tela ficam dentro do launcher, nao no pacote do jogo, entao sem isso as letras minusculas viram quadrados e a tela cheia continua com bordas pretas.",
+	"version": "1.5.3",
+	"notes": "O launcher agora avisa sozinho quando ele mesmo esta velho e precisa ser baixado de novo, em vez de deixar o jogo meio atualizado sem explicacao. Se voce instalou antes de hoje, baixe o instalador no site uma vez: a fonte e as configuracoes de tela ficam dentro do launcher, nao no pacote do jogo.",
 	"packs": {
 		"audio": {
 			"version": "1.5.0",
@@ -15,5 +15,9 @@
 			"sha256": "fc3e4b828f28236bd31e0cd3e18b31d435c295d3efa936f872307f1a43c113cd",
 			"url": "https://github.com/jeffersonest/frog-pond-launcher/releases/download/v1.5.2/game.pck"
 		}
+	},
+	"launcher": {
+		"version": "1.5.3",
+		"build": "e0be70316d1da4f7"
 	}
 }
