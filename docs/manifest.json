@@ -1,6 +1,6 @@
 {
-	"version": "1.5.3",
-	"notes": "O launcher agora avisa sozinho quando ele mesmo esta velho e precisa ser baixado de novo, em vez de deixar o jogo meio atualizado sem explicacao. Se voce instalou antes de hoje, baixe o instalador no site uma vez: a fonte e as configuracoes de tela ficam dentro do launcher, nao no pacote do jogo.",
+	"version": "1.5.4",
+	"notes": "Tela COMO JOGAR na primeira partida, com as teclas e os botoes do mouse desenhados. Ela fica guardada no perfil para consultar depois. Se voce instalou antes de hoje, baixe o instalador no site uma vez: a fonte e as configuracoes de tela ficam dentro do launcher e nao chegam pelo pacote do jogo.",
 	"packs": {
 		"audio": {
 			"version": "1.5.0",
@@ -10,14 +10,14 @@
 			"source": "ae1e1270b5d1934568456e2b9856a9662f7c9dd2dabb2a17237bc7fcac8bc78f"
 		},
 		"game": {
-			"version": "1.5.2",
-			"size": 1328148,
-			"sha256": "fc3e4b828f28236bd31e0cd3e18b31d435c295d3efa936f872307f1a43c113cd",
-			"url": "https://github.com/jeffersonest/frog-pond-launcher/releases/download/v1.5.2/game.pck"
+			"version": "1.5.4",
+			"size": 1331796,
+			"sha256": "73c2d046cc5e79fdc169d873434a80f8460a0fcb7e284af90008a665fb68e827",
+			"url": "https://github.com/jeffersonest/frog-pond-launcher/releases/download/v1.5.4/game.pck"
 		}
 	},
 	"launcher": {
-		"version": "1.5.3",
-		"build": "e0be70316d1da4f7"
+		"version": "1.5.4",
+		"build": "b3518a21c2c6aec0"
 	}
 }
