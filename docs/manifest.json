@@ -1,23 +1,23 @@
 {
-	"version": "1.6.0",
-	"notes": "Agora o jogo escreve com acento: a fonte ganhou as letras acentuadas do portugu\u00eas. Quem via quadradinhos no lugar das min\u00fasculas n\u00e3o precisa mais reinstalar, o pr\u00f3prio jogo corrige a fonte ao abrir. As mensagens embaixo do pergaminho n\u00e3o escondem mais o bot\u00e3o de voltar, e o guia da cobra conta a verdade: ela morde e tira vida, e s\u00f3 a escarlate mata na hora.",
+	"version": "1.7.0",
+	"notes": "Chegou o multiplayer, em beta! Em JOGAR, o bot\u00e3o MULTIPLAYER abre salas pela internet (com a conta) ou na rede local. S\u00e3o at\u00e9 6 sapos em dois times, por 3 minutos, e vence quem pegar mais moscas. A l\u00edngua tira vida do time advers\u00e1rio, e o dono da sala escolhe se vale fogo amigo.\n\nTodas as habilidades agora saem no bot\u00e3o direito: as de l\u00edngua preparam o pr\u00f3ximo tiro, COURO e TROCO abrem 3 segundos para o pr\u00f3ximo golpe, e F\u00daRIA e SUMI\u00c7O agem na hora. A barra de carga se acende enquanto a habilidade est\u00e1 armada. VENENO e CHOQUE agora pegam de verdade na cobra e nos chefes.\n\nOs chefes foram redesenhados, maiores, e ganharam m\u00fasica pr\u00f3pria. Vencer o rival agora sempre d\u00e1 o sapo da cor dele. Esta atualiza\u00e7\u00e3o baixa a m\u00fasica de novo uma \u00fanica vez.",
 	"packs": {
 		"audio": {
-			"version": "1.5.0",
-			"size": 44380004,
-			"sha256": "b200b2529321c475d14a16fd3542b8413c926992590a8fc4eb2e7b08ef26c962",
-			"url": "https://github.com/jeffersonest/frog-pond-launcher/releases/download/v1.5.0/audio.pck",
-			"source": "ae1e1270b5d1934568456e2b9856a9662f7c9dd2dabb2a17237bc7fcac8bc78f"
+			"version": "1.7.0",
+			"size": 53361992,
+			"sha256": "5335263b54d5eb9ff938e049b730147b0a03d38e741c0c6d520ac58051c5da57",
+			"url": "https://github.com/jeffersonest/frog-pond-launcher/releases/download/v1.7.0/audio.pck",
+			"source": "a3697fdb0bc6fe410a0bd8921f83df6c62f210ac7996213e21f20d622c956163"
 		},
 		"game": {
-			"version": "1.6.0",
-			"size": 1333780,
-			"sha256": "674ee0dc71838da89820f8ef652da5b76a0eb233dc797a079c36f7155434a498",
-			"url": "https://github.com/jeffersonest/frog-pond-launcher/releases/download/v1.6.0/game.pck"
+			"version": "1.7.0",
+			"size": 1437660,
+			"sha256": "0876b0970a0e632eeab036f9c378a7f563462a7db5552463f0a0aad42e07d285",
+			"url": "https://github.com/jeffersonest/frog-pond-launcher/releases/download/v1.7.0/game.pck"
 		}
 	},
 	"launcher": {
-		"version": "1.6.0",
+		"version": "1.7.0",
 		"build": "dee19a9b038eefac"
 	}
 }
