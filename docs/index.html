@@ -19,6 +19,10 @@
         <img class="pixel" src="img/wordmark.png" width="54" height="9" alt="Frog Pond">
       </h1>
       <p class="hero__pitch">Uma rã na beira de um lago gerado. Tudo que passa voando por cima da água é seu, se a língua alcançar.</p>
+      <p class="release" hidden>
+        <span class="release__badge">Versão <b class="release__version"></b></span>
+        <a class="release__link" href="#novidades">o que mudou</a>
+      </p>
       <a class="button button--lead" href="#baixar">Baixar o jogo</a>
       <p class="hero__note">Windows e Linux &middot; download direto, sem loja e sem conta</p>
     </div>
@@ -41,6 +45,11 @@
       <div class="scroll__body">
         <h2 class="scroll__title">Baixar</h2>
         <p class="scroll__lead">Sempre a última versão publicada, e todo pacote já vem com o launcher.</p>
+
+        <div class="news" id="novidades" hidden>
+          <h3 class="news__title">Novidades da versão <span class="release__version"></span></h3>
+          <div class="news__notes"></div>
+        </div>
 
         <ul class="downloads">
           <li class="download" data-platform="windows">
@@ -164,6 +173,32 @@
 </footer>
 
 <script>
+// The version out now and what it changed come from the manifest the launcher reads, so a release
+// shows here the moment it is published, without the page being touched. Until it answers, or if
+// it never does, the page is the one it always was.
+(function () {
+  function show(manifest) {
+    if (!manifest || !manifest.version) return;
+    document.querySelectorAll(".release__version").forEach(function (slot) {
+      slot.textContent = manifest.version;
+    });
+    var notes = document.querySelector(".news__notes");
+    String(manifest.notes || "").split(/\n\s*\n/).forEach(function (paragraph) {
+      if (!paragraph.trim()) return;
+      var line = document.createElement("p");
+      line.textContent = paragraph.trim();
+      notes.appendChild(line);
+    });
+    document.querySelector(".release").hidden = false;
+    document.querySelector(".news").hidden = notes.childElementCount === 0;
+  }
+
+  fetch("manifest.json", { cache: "no-store" })
+    .then(function (answer) { return answer.ok ? answer.json() : null; })
+    .then(show)
+    .catch(function () {});
+})();
+
 // The three packages stay side by side; the visitor's own system just gets marked.
 (function () {
   function system() {
