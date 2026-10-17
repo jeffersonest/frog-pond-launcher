@@ -1,6 +1,6 @@
 {
-	"version": "1.10.0",
-	"notes": "O Frog Pond agora tamb\u00e9m fala ingl\u00eas! Em AJUSTES h\u00e1 a linha nova IDIOMA, para escolher entre PORTUGU\u00caS e ENGLISH; quem nunca escolheu segue o idioma do sistema. O jogo inteiro foi traduzido: menus, guia, salas, partidas e avisos. O launcher em ingl\u00eas vem no instalador novo, no site do jogo.",
+	"version": "1.10.1",
+	"notes": "Corre\u00e7\u00f5es de seguran\u00e7a. Quem entra numa sala agora recusa um anfitri\u00e3o que mande uma partida imposs\u00edvel, em vez de travar tentando mont\u00e1-la. Quando o servidor pede uma pausa no login, depois de tentativas demais ou de senhas erradas, o jogo diz para esperar em vez de dizer que a senha est\u00e1 errada. No launcher em ingl\u00eas, o bot\u00e3o de jogar agora tamb\u00e9m aparece em ingl\u00eas; essa parte vem no instalador novo, no site do jogo. Quem est\u00e1 na 1.10.0 continua jogando junto.",
 	"packs": {
 		"audio": {
 			"version": "1.7.0",
@@ -10,15 +10,15 @@
 			"source": "a3697fdb0bc6fe410a0bd8921f83df6c62f210ac7996213e21f20d622c956163"
 		},
 		"game": {
-			"version": "1.10.0",
-			"size": 1563044,
-			"sha256": "def7966e40ed1ebb1549e97869b32ca768399248c623d3277a3dd446c2cb1e50",
-			"url": "https://github.com/jeffersonest/frog-pond-launcher/releases/download/v1.10.0/game.pck"
+			"version": "1.10.1",
+			"size": 1564068,
+			"sha256": "87638aad6e3beb58744a136d498bd2b6860a48b290ed946345700f101ae522cf",
+			"url": "https://github.com/jeffersonest/frog-pond-launcher/releases/download/v1.10.1/game.pck"
 		}
 	},
-	"notes_en": "Frog Pond now speaks English! SETTINGS has a new LANGUAGE line to choose between PORTUGU\u00caS and ENGLISH, and a game that never chose follows the system's language. The whole game is translated: menus, the guide, rooms, matches and messages. The launcher in English comes with the new installer, on the game's site.",
+	"notes_en": "Security fixes. A player joining a room now refuses a host that sends an impossible match, instead of stalling while trying to build it. When the server asks for a pause at sign-in, after too many tries or wrong passwords, the game says to wait instead of saying the password is wrong. In the English launcher the play button is now in English too; that part comes with the new installer, on the game's site. Players on 1.10.0 can still play together with this version.",
 	"launcher": {
-		"version": "1.10.0",
-		"build": "34494d2315efc024"
+		"version": "1.10.1",
+		"build": "58b8aa9c6563e075"
 	}
 }
