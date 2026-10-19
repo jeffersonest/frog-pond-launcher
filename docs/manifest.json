@@ -1,6 +1,6 @@
 {
-	"version": "1.10.1",
-	"notes": "Corre\u00e7\u00f5es de seguran\u00e7a. Quem entra numa sala agora recusa um anfitri\u00e3o que mande uma partida imposs\u00edvel, em vez de travar tentando mont\u00e1-la. Quando o servidor pede uma pausa no login, depois de tentativas demais ou de senhas erradas, o jogo diz para esperar em vez de dizer que a senha est\u00e1 errada. No launcher em ingl\u00eas, o bot\u00e3o de jogar agora tamb\u00e9m aparece em ingl\u00eas; essa parte vem no instalador novo, no site do jogo. Quem est\u00e1 na 1.10.0 continua jogando junto.",
+	"version": "1.10.2",
+	"notes": "Partidas online mais fluidas: o jogo agora manda as posi\u00e7\u00f5es 60 vezes por segundo, em vez de 20, ent\u00e3o os sapos, os insetos e os chefes dos outros jogadores se movem sem saltos. No survivor, os sapos n\u00e3o se bloqueiam mais na ilha: d\u00e1 para passar por cima de um companheiro. Quem est\u00e1 na 1.10.1 continua jogando junto, mas a melhora completa vem com todos na vers\u00e3o nova.",
 	"packs": {
 		"audio": {
 			"version": "1.7.0",
@@ -10,15 +10,15 @@
 			"source": "a3697fdb0bc6fe410a0bd8921f83df6c62f210ac7996213e21f20d622c956163"
 		},
 		"game": {
-			"version": "1.10.1",
-			"size": 1564068,
-			"sha256": "87638aad6e3beb58744a136d498bd2b6860a48b290ed946345700f101ae522cf",
-			"url": "https://github.com/jeffersonest/frog-pond-launcher/releases/download/v1.10.1/game.pck"
+			"version": "1.10.2",
+			"size": 1564036,
+			"sha256": "3a9aa732305eb302d8e805227488dfc77bc0a2464aa40e919c321bc30f897920",
+			"url": "https://github.com/jeffersonest/frog-pond-launcher/releases/download/v1.10.2/game.pck"
 		}
 	},
-	"notes_en": "Security fixes. A player joining a room now refuses a host that sends an impossible match, instead of stalling while trying to build it. When the server asks for a pause at sign-in, after too many tries or wrong passwords, the game says to wait instead of saying the password is wrong. In the English launcher the play button is now in English too; that part comes with the new installer, on the game's site. Players on 1.10.0 can still play together with this version.",
+	"notes_en": "Smoother online matches: the game now sends positions 60 times a second instead of 20, so the other players' frogs, the insects and the bosses move without jumps. In survivor, frogs no longer block each other on the island: you can walk right over a teammate. Players on 1.10.1 can still play together, but the full improvement comes when everyone is on the new version.",
 	"launcher": {
-		"version": "1.10.1",
+		"version": "1.10.2",
 		"build": "58b8aa9c6563e075"
 	}
 }
